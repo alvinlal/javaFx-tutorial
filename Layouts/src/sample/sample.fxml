@@ -1,30 +1,62 @@
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.HBox?>
-<BorderPane fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml">
-    <top>
-        <Label BorderPane.alignment="CENTER" text="This label is in the top position" alignment="CENTER"
-               style="-fx-border-color:teal;"
-        />
-    </top>
-    <center>
-        <Label text="This label is in the center position and has really loooooooooooooooooooooooooooooooooooooooooooooooooong text"/>
-    </center>
-    <left>
-        <Label text="This label is in the left position" alignment="center"/>
-    </left>
-    <right>
-        <Label text="This label is in the right position" alignment="center"/>
-    </right>
-    <bottom>
-        <HBox spacing="10" alignment="CENTER">
-            <padding>
-                <Insets bottom="10" right="10"/>
-            </padding>
-            <Button text="Okay" prefWidth="100"/>
-            <Button text="Cancel" prefWidth="100"/>
-            <Button text="Help" prefWidth="100"/>
-        </HBox>
-    </bottom>
-</BorderPane>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.Button?>
+<FlowPane fx:controller = "sample.Controller" xmlns:fx="http://javafx.com/fxml" orientation="HORIZONTAL">
+    <Button text="Button One" />
+    <Button text="Button Two" />
+    <Button text="Button Three" />
+    <Button text="Button Four" />
+    <Button text="Button Five" />
+    <Button text="Button Six" />
+    <Button text="Button Seven" />
+    <Button text="Button Eight" />
+    <Button text="Button Nine" />
+    <Button text="Button Ten" />
+</FlowPane>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?import javafx.geometry.Insets?>-->
+<!--<?import javafx.scene.control.*?>-->
+<!--<?import javafx.scene.layout.BorderPane?>-->
+<!--<?import javafx.scene.layout.HBox?>-->
+<!--<BorderPane fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml">-->
+<!--    <top>-->
+<!--        <Label BorderPane.alignment="CENTER" text="This label is in the top position" alignment="CENTER"-->
+<!--               style="-fx-border-color:teal;"-->
+<!--        />-->
+<!--    </top>-->
+<!--    <center>-->
+<!--        <Label text="This label is in the center position and has really loooooooooooooooooooooooooooooooooooooooooooooooooong text"/>-->
+<!--    </center>-->
+<!--    <left>-->
+<!--        <Label text="This label is in the left position" alignment="center"/>-->
+<!--    </left>-->
+<!--    <right>-->
+<!--        <Label text="This label is in the right position" alignment="center"/>-->
+<!--    </right>-->
+<!--    <bottom>-->
+<!--        <HBox spacing="10" alignment="CENTER">-->
+<!--            <padding>-->
+<!--                <Insets bottom="10" right="10"/>-->
+<!--            </padding>-->
+<!--            <Button text="Okay" prefWidth="100"/>-->
+<!--            <Button text="Cancel" prefWidth="100"/>-->
+<!--            <Button text="Help" prefWidth="100"/>-->
+<!--        </HBox>-->
+<!--    </bottom>-->
+<!--</BorderPane>-->
